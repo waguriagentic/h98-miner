@@ -1,0 +1,33 @@
+# Secrets
+.env
+.env.local
+
+# Build artifacts
+/target
+Cargo.lock.bak
+
+# Vendored binaries derived from system DLLs (regenerate per-machine)
+/vendor/OpenCL.lib
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+Thumbs.db
+.DS_Store
+
+miner.log
+monitor.sh
+monitor-realtime.sh
+monitor-reward.sh
+monitor.log
+.claude
+
+# Added by cargo
+#
+# already existing elements were commented out
+
+#/target
